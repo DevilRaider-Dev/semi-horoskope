@@ -1,7 +1,6 @@
 
 function selectHoroskope() {
     let horoskope = document.getElementById("horoskope").value
-    console.log(horoskope)
     switch (horoskope) {
         case "aries":
             document.getElementById("output").innerHTML = '<img src="https://www.horoscopedates.com/img/icon_aries.png" alt=""><h2>Ýour Horoskope is Aries</h2><p>Today your patience might be tested when one or more of your projects gets put on hold by someone… </p>'
